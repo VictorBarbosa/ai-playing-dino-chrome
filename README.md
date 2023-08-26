@@ -13,7 +13,7 @@ In this example, I have created an AI that plays the Google Chrome's Dinosaur ga
 
 - I didn't build the game from scratch; I incorporated the source code that I found on the internet [Here](https://codepen.io/MysticReborn/pen/rygqao).
 - I had to make some modifications since I needed a callback whenever obstacles moved on the screen, to determine distance and speed.
-- Although it worked, there are random events in the game that can cause the AI to lose, for example, the game's speed.
+- Although it worked, there are random events in the game that can cause the AI to lose the game, for example, the game's speed.
 
 Live Test:[Git Pages](https://victorbarbosa.github.io/ai-playing-dino-chrome/)
 
@@ -42,7 +42,7 @@ Dans cet exemple, j'ai créé une IA qui joue au jeu du dinosaure de Google Chro
 
 - Je n'ai pas construit le jeu à partir de zéro ; j'ai incorporé le code source que j'ai trouvé sur internet [ici](https://codepen.io/MysticReborn/pen/rygqao).
 - J'ai dû apporter quelques modifications car j'avais besoin d'un rappel à chaque fois que les obstacles bougeaient à l'écran, pour déterminer la distance et la vitesse.
-- Bien que cela ait fonctionné, il existe des événements aléatoires dans le jeu qui peuvent faire perdre à l'IA, par exemple, la vitesse du jeu.
+- Bien que cela ait fonctionné, il existe des événements aléatoires dans le jeu qui peuvent faire perdre à l'IA le jeu, par exemple, la vitesse du jeu.
 
 
 Test en Direct: [Git Pages](https://victorbarbosa.github.io/ai-playing-dino-chrome/)
