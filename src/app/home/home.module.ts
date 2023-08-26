@@ -5,6 +5,8 @@ import { FormsModule } from '@angular/forms';
 import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
+import { ObjectDetectionFromYoloToTensorflowModule } from 'object-detection-from-yolo-to-tensorflow';
+import { DinoGameComponent } from '../dino-game/dino-game.component';
 
 
 @NgModule({
@@ -12,8 +14,9 @@ import { HomePageRoutingModule } from './home-routing.module';
     CommonModule,
     FormsModule,
     IonicModule,
-    HomePageRoutingModule
+    HomePageRoutingModule,
+    ObjectDetectionFromYoloToTensorflowModule
   ],
-  declarations: [HomePage]
+  declarations: [HomePage, DinoGameComponent]
 })
-export class HomePageModule {}
+export class HomePageModule { }

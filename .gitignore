@@ -8,7 +8,7 @@
 *.tmp.*
 UserInterfaceState.xcuserstate
 $RECYCLE.BIN/
-
+.angular
 *.log
 log.txt
 
@@ -66,3 +66,8 @@ testem.log
 # System files
 .DS_Store
 Thumbs.db
+
+
+.angular
+
+.vscode
