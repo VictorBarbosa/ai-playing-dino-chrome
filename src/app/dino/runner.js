@@ -128,11 +128,11 @@
     MAX_CLOUDS: 6,
     MAX_OBSTACLE_LENGTH: 3,
     MAX_OBSTACLE_DUPLICATION: 2,
-    MAX_SPEED: 10,
+    MAX_SPEED: 16,
     MIN_JUMP_HEIGHT: 35,
     MOBILE_SPEED_COEFFICIENT: 1.2,
     RESOURCE_TEMPLATE_ID: 'audio-resources',
-    SPEED: 6,
+    SPEED: 11,
     SPEED_DROP_COEFFICIENT: 3,
     ARCADE_MODE_INITIAL_TOP_POSITION: 35,
     ARCADE_MODE_TOP_POSITION_PERCENT: 0.1
@@ -2803,9 +2803,9 @@ export default class RunnerDino {
   }
 
 
-/**
- * Crouched
- */
+  /**
+   * Crouched
+   */
   crouched() {
     if (!this.runner.tRex.jumping === !this.runner.tRex.ducking) {
       this.runner.tRex.setDuck(true);
@@ -2853,7 +2853,7 @@ export default class RunnerDino {
 
     const builder = (type, y, endPath) => {
       let speed = 6.0;
-      const speedLimit = 13.1;
+      const speedLimit = 15.1;
       const tempData = []
       while (speed <= speedLimit) {
         let x = startPath;

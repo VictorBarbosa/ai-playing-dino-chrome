@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import * as tf from '@tensorflow/tfjs'
+tf.setBackend('cpu')
 import RunnerDino from '../dino/runner';
 @Component({
   selector: 'app-dino-game',
@@ -33,6 +34,8 @@ export class DinoGameComponent implements OnInit {
 
   ngOnInit(): void {
     this.runner = new RunnerDino(this.obstaclePositionCallback.bind(this));
+    const json = this.runner.buildFakeData()
+    debugger
   }
 
   /**
